@@ -1,0 +1,191 @@
+* {
+margin : 0;
+padding : 0;
+box-sizing: border-box;
+font-family: 'gilroy';
+color: #fff;
+}
+html , body{
+height : 100%;
+width : 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+#nav{
+    height: 140px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+#nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: royalblue; */
+    width: 45%;
+}
+
+#nav h1 {
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center; 
+}
+
+#nav  i{
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+#nav h5{
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+#nav img{
+    height: 50px;
+    
+}
+
+#line {
+    height: 2px;
+    width : 70px;
+    background-color: #E71727;
+}
+
+#content{
+    height: calc(100% - 140px); /* poori 100% screen se 140px nikal do */ 
+    width: 100%;
+    /* background-color: lightskyblue; */
+    display: flex;
+    justify-content: space-between  ;
+    position: relative;
+}
+
+#left{
+    width: 36%;
+    height: 100%;
+    /* background-color: #E71727 ; */
+    padding: 160px 100px;
+    
+}
+#left h1{
+    font-size: 75px;
+    line-height: 70px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+#left h1 span {
+    color: #E71727;
+    font-weight: 500;
+}
+
+#right{
+    width: 36%;
+    height: 100%;
+    padding: 340px 140px;
+    /* background-color: #E71727 ; */
+}
+
+
+#center{
+    width: 26%;
+    height: 100%;
+    /* background-color: royalblue; */
+    padding-top: 60px;
+}
+
+#left p{
+    font-size: 18px;
+    width: 70%;
+    margin-bottom: 50px;
+    line-height: 24px;
+}
+
+#left button{
+    padding: 20px 42px;
+    border-radius: 50px;
+    background-color: #E71727;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+#left button i {
+    margin-right: 10px;
+}
+
+/* #icon{
+    position: absolute;
+    margin-left: 250px;
+    margin-bottom: 5px
+} */
+
+#centerbg{
+    height: 88%;
+    width: 100%;
+    background-color: aqua;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    background-image:url("https://c0.wallpaperflare.com/preview/85/135/782/coca-cola-led-signage-thumbnail.jpg");
+    background-size: 450%;
+    background-position: 30% 40%;
+    filter: blur(3px);
+}
+
+#content>img{
+    height: 100%;
+    position: absolute;
+    left:49.3%;
+    transform: translate(-50%,0);
+    z-index: 99;
+}
+
+
+#rightelems{
+    /* background-color: #E71727; */
+    width: 350px;
+}
+
+#elem1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    /* background-color: blue; */
+    border-bottom: 1px solid white;
+    opacity: 0.6;
+}
+
+#elem1 h1{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+#elem2 h1{
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    font-size: 24px;
+}
+
+#elem1 i{
+    font-size: 24px;
+}
+
+#elem2 p{
+    font-size: 12px;
+    width: 80%;
+    opacity: 0.6;
+    }
