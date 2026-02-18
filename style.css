@@ -135,7 +135,7 @@ width : 100%;
 #centerbg{
     height: 88%;
     width: 100%;
-    background-color: aqua;
+    /* background-color: aqua; */
     border-top-left-radius: 1000px;
     border-top-right-radius: 1000px;
     background-image:url("https://c0.wallpaperflare.com/preview/85/135/782/coca-cola-led-signage-thumbnail.jpg");
@@ -188,4 +188,5 @@ width : 100%;
     font-size: 12px;
     width: 80%;
     opacity: 0.6;
+
     }
